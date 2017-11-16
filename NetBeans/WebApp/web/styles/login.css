@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+.foundation {
+    border-radius: 70px;
+    border: 10px solid #007129;
+    padding: 20px; 
+    width: 350px;
+    height: 450px;
+    background: #8ABD3C;
+    margin: 0 auto;
+}
+.boxdummy {
+    width: 350px;
+    height: 70px;
+    background: #8ABD3C;
+    display: flex;
+    padding: 2px;
+}
+.line, .title {
+	width: 39%;
+	margin-left: 8px;
+	display: inline-block;
+	text-align: center;
+	font-family: "DIN 1451 Engschrift";
+	color: #007129;
+	font-size: 40px;
+}
+hr {
+	border: 0;
+	border-top: 2px solid #007129;
+}
+#login {
+	margin-top: 20%;
+}
+#signup {
+	margin-top: 5%;
+}
+.formAttribute{
+	font-family: "Browallia New";
+	color: #007129;
+	font-size: 35px;
+	margin-top: -20px;
+}
+.formAttribute2 {
+	font-size: 25px;
+	font-family: "Browallia New";
+	color: #007129;
+}
+
+#signup .formBox .formFill{
+	font-family: "tahoma";
+	float: right;
+	clear: right;
+	border: 1px solid #007129;
+}
+
+.check {
+	display: inline-block;
+	visibility: hidden;
+	float: right;
+}
+
+#signup .formBox .formFillCheck{
+	font-family: "tahoma";
+	display: inline-block;
+	float: right;
+	border: 1px solid #007129;
+	width: 40%;
+	margin-right: 2px;
+}
+
+.material-icons {
+	color: #007129;
+}
+
+#login .formBox .formFill{
+	font-family: "tahoma";
+	float: right;
+	clear: right;
+	border: 1px solid #007129;
+	line-height: 25px;
+}
+.other {
+	margin-top: 40px;
+}
+.formBox{
+}
+.formmCheck {
+	float: left;
+}
+#link, #link1 {
+	float: left;
+	color: #0D0A0A;
+}
+.button {
+	border-radius: 10px;
+    border: 2px solid #0D0A0A;
+    width: 100px;
+    height: 40px;
+    background: #83D802;
+    float: right;
+    font-family: "verdana";
+    font-size: 17px;
+    text-align: center;
+}
+.choice {
+	margin-top: 36%;
+}
